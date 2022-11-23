@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="Formular.css" rel="stylesheet">
+        <title>Forms</title>
+    </head>
+    <body>
+        
+        <div>
+        
+            <form id="home">
+                
+                <div id="user">
+                    
+                <input name="Vor- und Nachname" placeholder="Vor- und Nachname" class="name"  >
+                <input type="email" placeholder="E-Mail" required class="name">
+                <input type="password" placeholder="Password" required class="passwort" >
+                <button type="submit" id="submitbutton" class="knopf">submit</button>
+                <input type="date" placeholder="dd - mm - yy" class="dates">
+                </div>
+                <p></p>
+        <div id="gender">
+            
+            <label for="geschlecht_1m">Männlich</label>
+            <input type="radio" name="geschlecht" value="m" id="geschlecht_1m" checked="checked">
+            <label for="geschlecht_1w">Weiblich</label>
+            <input type="radio" name="geschlecht" value="w" id="geschlecht_1w">
+            <label for="AGB">AGB</label>
+            <input type="checkbox" name="Agb" >
+        </div>
+            </form>
+               
+        </div>
+    
+    </body>
+</html>

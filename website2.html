@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8"/>
+        <link href="website2.css" rel="stylesheet">
+        <script src="main.js"></script>
+        <title>Website2</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <h1 class="heading">Registrierung</h1>
+                <p class="text1">Vorname & Nachname</p>
+                <form>
+                   <input id="name" type="text">
+                </form>
+                <p class="text1">Email</p>
+                <form>
+                   <input id="email" type="email"/>
+                </form>
+                <p class="text1">Passwort</p>
+                <form >
+                    <input type="password" id="password" type="text"/>
+                </form>
+                <p class="text1">Geburtsdatum</p>
+                <form>
+                    <input id="birdthday" type="text"/>
+                </form>
+                <p class="text1">Geschlecht</p>
+                <div class="checkboxholder"> 
+                <input type="radio" name="gender"/>
+                <label for="gender">männlich</label>
+                </div>
+                <div class="checkboxholder">
+                    <input type="radio" name="gender">
+                    <label for="gender">weiblich</label>
+                </div>
+
+            </div>
+            <div class="slidebar">
+                <div class="points">
+                    <div class="slidebar-point2"></div>
+                    <div class="slidebar-point1"></div>
+                    <div class="slidebar-point2"></div>
+                </div>
+                <div class="countine-button">
+                    <button class="weiter" onclick="switch2()">Weiter</button>
+                    <button class="arrow-button" onclick="switch2()"></button>
+                </div>
+            </div>
+        </div>
+        
+    </body>

@@ -1,0 +1,127 @@
+.sidenav {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border:  1px solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-color: #d3d3d3;
+}
+.home {
+    margin-left: 11px;
+    margin-top: 65px;
+    width: 28px;
+    height: 28px;
+    background:url(np_home_1706882_000000\ 1.png)
+     
+
+}
+.blog {
+    margin-left: 11px;
+    margin-top: 25px;
+    width: 28px;
+    height: 28px;
+    background: url(np_blog_586416_000000\ 1.png);
+}
+.profile {
+    margin-top: 1115px;
+    margin-left: 11px;
+    width: 28px;
+    height: 28px;
+    background: url(np_profile_665436_000000\ 1.png);
+}
+.sidenav a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    
+}.container {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    margin-left: 110px;
+    margin-top: 50px;
+    
+}
+#start {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    
+}
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 50px;
+}
+#Email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 40px;
+}
+#person {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 71px;
+    text-decoration-line:underline ;
+    
+}
+#birdthday {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 40px;
+}
+#gender {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 40px;
+
+}
+.button {
+    position: absolute;
+    width: 287px;
+    top: 1180px;
+    left: 112px;
+}
+.logout {
+    border: none;
+    background: #3574f3;
+    padding: 13px 120px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+
+}

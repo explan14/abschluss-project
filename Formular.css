@@ -1,0 +1,58 @@
+#home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-width:  4px;
+    border-style: solid;
+    border-color: blue;
+    
+    
+
+}
+#gender {
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+
+
+form {
+    margin-top: 12cm;
+    
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+
+
+.passwort {
+    margin-bottom: 20px;
+}
+
+.knopf {
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.dates {
+    margin-bottom: 20px;
+    color: blue;
+}
+
+html {
+    display:block;
+    background-image: url(https://149349300.v2.pressablecdn.com/wp-content/uploads/2019/06/3d-cube-background-4k-yo.jpg);
+
+}
+::placeholder {color: blue;}
+
+label {
+    color:  whitesmoke;
+}
